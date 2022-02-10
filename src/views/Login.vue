@@ -3,12 +3,12 @@
     <v-sheet color="grey lighten-2" height="200" style="width: 100%"> </v-sheet>
     <v-container class="mt-n10 mx-auto">
       <v-card min-width="200px" max-width="600px" outlined class="mt-n3 mx-auto">
-        <v-card-title class="mb-n5"> Login! </v-card-title>
+        <v-card-title class="mb-n5"> Login </v-card-title>
         <v-stepper elevation="0" v-model="e1">
           <v-stepper-items>
             <v-stepper-content class="mx-n2 mt-n6" step="1">
               <v-card-text class="mt-n5 ml-n4 mt-n2 mt-n2 grey--text">
-                Loggoigign
+                Log in using your ROBLOX Username
               </v-card-text>
               <v-alert type="error" v-if="error" class="mt-n2" color="red">
                 We could not find an account with that username and password</v-alert
